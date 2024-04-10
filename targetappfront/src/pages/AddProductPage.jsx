@@ -4,8 +4,10 @@ import ProductForm from '../components/ProductForm';
 const AddProductPage = () => {
   return (
     <>
-      <h2>AddProductPage</h2>
-      <ProductForm />
+      <div className="addProductPage">
+        <h2>Add New Product</h2>
+        <ProductForm />
+      </div>
     </>
   );
 };

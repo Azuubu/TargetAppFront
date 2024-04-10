@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
-import './index.css';
+// import './index.css';
+import './styles/main.scss';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import NotFoundPage from './pages/NotFoundPage.jsx';
 import Layout from './components/Layout.jsx';
-import ShowProductsPage from './pages/ShowProductsPage.jsx';
-import AddProductPage from './pages/AddProductPage.jsx';
-import ShowCategoriesPage from './pages/ShowCategoriesPage.jsx';
-import AddCategoryPage from './pages/AddCategoryPage.jsx';
-import HomePage from './pages/HomePage.jsx';
 import routes from './routes/Routes.jsx';
 
 const router = createBrowserRouter([

@@ -27,7 +27,7 @@ const Navbar = () => {
             isActive ? 'activeNavLink link menuGrp' : 'link navbarLink menuGrp'
           }
         >
-          Add New Product
+          Add Product
         </NavLink>
 
         <NavLink
@@ -45,7 +45,7 @@ const Navbar = () => {
             isActive ? 'activeNavLink link menuGrp' : 'link navbarLink menuGrp'
           }
         >
-          Add New Category
+          Add Category
         </NavLink>
       </nav>
     </>
